@@ -1,0 +1,66 @@
+  
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: orange;
+}
+
+.container{
+    main{
+        background-color:black;
+        color: greenyellow;
+        text-align: justify;
+        text-transform: capitalize;
+        width: 50%;
+        margin: 200px 300px;
+        border-radius: 20px;
+
+           
+        
+
+
+
+        h1{
+            text-transform: capitalize;
+            padding: 10px;
+            font-size: 30px;
+            margin-top: 30px;
+        
+            
+        }
+        h2{
+            padding: 10px;
+            font-size: 50px;
+        }
+        h3{
+            padding: 10px;
+
+        }
+        p{
+            text-align: justify;
+            font-size: 10px;
+            family: Georgia, 'Times New Roman', Times, serif;
+            padding: 10px;
+
+        }
+        
+        a{
+            padding: 10px;
+            text-transform: capitalize;
+            text-decoration: none;
+            color: orangered;
+        } 
+        button{
+            width:20%;
+            background-color:wheat;
+            text-transform: uppercase;
+            border-radius: 20px;
+            margin-bottom:  10px;
+            margin-top: 10px;
+            margin-left: 20px;
+            padding-bottom: 10px 5px;
+        }
+    }
+}
