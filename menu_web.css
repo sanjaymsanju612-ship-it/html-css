@@ -1,0 +1,122 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: aquamarine;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+        border-bottom: 2px solid black;
+        height: 100px;
+        align-items: center;
+        width: 100%;
+        .elements{
+           
+
+        }
+        .icons{
+            display: flex;
+            gap: 30px;
+            a{
+
+                display: flex;
+                gap: 30px;
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 22px;
+                color: black;
+            }
+
+        }
+        .logo{
+            display: flex;
+            gap: 15px;
+            a{
+                font-size: 22px;
+                color: black;
+            }
+        }
+
+    }
+    .subnavbar{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+        color: darkblue;
+        .link{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 30px;
+            font-size: 20px;
+            color: black;
+            text-transform: capitalize;
+
+            a{
+            display: flex;
+            text-decoration: none;
+            gap: 30px;
+            color: black;
+            text-transform: capitalize;
+            /* flex-direction: column; */
+        }
+
+        }
+            h1{
+            font-size: 60px;
+        }
+        
+    }
+    .cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+        /* flex-direction: column; */
+        .card{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            width: 350px;
+            border: 2px solid black;
+            padding: 15px;
+            border-radius: 10px;
+            img{
+                width: 350px;
+            }
+            h1{
+                color: darkblue;
+                font-size: 25px;
+            }
+            p{
+                text-align: justify;
+            }
+        }
+    }
+    .footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+        background-color: darkblue;
+        border-top: 2px solid black;
+        width: 100%;
+        color: white;
+        gap: 20px;
+        a{
+            color: white;
+            gap: 20px;
+        }
+    }
+}
